@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { HeadshotSettings, ClothingStyle } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAYTg_5lfCIso1wOsKt6REFln07pGjUqCc" });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyAsoOuYp6olT5DedfG9yGQqoLW4Nqtns3k" });
 
 // Helper to convert blob to base64
 const fileToGenerativePart = async (file: File): Promise<{ inlineData: { data: string; mimeType: string } }> => {
